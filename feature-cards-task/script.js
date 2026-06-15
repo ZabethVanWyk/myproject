@@ -1,6 +1,6 @@
 const cards = [
     {
-        statistic: "99%",
+        statistic: "98%",
         title: "Customer Satisfaction",
         colour: "blue"
     },
