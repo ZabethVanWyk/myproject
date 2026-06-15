@@ -1,18 +1,20 @@
 const cards = [
     {
-        title: "More than",
+        topText: "More than",
         statistic: "12,000,000",
-        title: "delighted guests",
+        bottomText: "delighted guests",
         colour: "green"
     },
     {
+        topText: "Find us in",
         statistic: "50",
-        title: "countries",
+        bottomText: "countries",
         colour: "pink"
     },
     {
+        topText: "Over",
         statistic: "800,000,000",
-        title: "darts thrown",
+        bottomText: "darts thrown",
         colour: "blue"
     }
 ];
@@ -26,9 +28,10 @@ cards.forEach(card => {
     article.className = `card ${card.colour}`;
 
     article.innerHTML = `
-        <h2>${card.statistic}</h2>
-        <p>${card.title}</p>
-    `;
+  <p class="top-text">${card.topText}</p>
+  <h2>${card.statistic}</h2>
+  <p class="bottom-text">${card.bottomText}</p>
+`;
 
     container.appendChild(article);
 });
