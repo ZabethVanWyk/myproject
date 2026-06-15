@@ -10,13 +10,13 @@ body {
 }
 
 h1 {
-    text-align: center;
+    text-align: left;
     margin-bottom: 40px;
 }
 
 .card h2 {
-    font-size: 4rem;
-    font-weight: 700;
+    font-size: 3rem;
+    font-weight: 800;
 }
 
 .feature-cards {
@@ -28,21 +28,17 @@ h1 {
 .card {
     padding: 30px;
     border-radius: 12px;
-    color: white;
-    min-height: 300px;
-    text-align: center;
+    color: black;
+    min-height: 400px;
+    text-align: left;
     transition: transform 0.2s ease;
-     display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: top;
 }
 
 .card:hover {
-    transform: translateY(-5px);
-}
-
-.blue {
-    background: #0189ff;
+    transform: translateY(-15px);
 }
 
 .green {
@@ -51,6 +47,10 @@ h1 {
 
 .pink {
     background: #e900b8;
+}
+
+.blue {
+    background: #0189ff;
 }
 
 @media (max-width: 768px) {
