@@ -43,6 +43,7 @@ h1 {
 
 .card {
     padding: 30px;
+    margin: -5px;
     border-radius: 12px;
     color: black;
     min-height: 400px;
@@ -54,6 +55,18 @@ h1 {
     gap: 1px;
 }
 
+.card:nth-child(1) {
+    transform: rotate(1deg);
+}
+
+.card:nth-child(2) {
+    transform: rotate(-1deg);
+    margin-bottom: 3px;
+}
+
+.card:nth-child(3) {
+    transform: rotate(1deg);
+}
 .card:hover {
     transform:  translateY(-10px) rotate(-5deg);
 }
