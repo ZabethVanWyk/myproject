@@ -1,7 +1,7 @@
 const cards = [
     {
         topText: "More than",
-        statistic: "12,000,000",
+        statistic: "12,500,000",
         bottomText: "delighted guests",
         colour: "green"
     },
