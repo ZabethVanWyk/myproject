@@ -1,18 +1,19 @@
 const cards = [
     {
-        statistic: "98%",
-        title: "Customer Satisfaction",
-        colour: "blue"
-    },
-    {
-        statistic: "10,000+",
-        title: "Projects Completed",
+        title: "More than",
+        statistic: "12,000,000",
+        title: "delighted guests",
         colour: "green"
     },
     {
-        statistic: "24/7",
-        title: "Support Available",
-        colour: "orange"
+        statistic: "50",
+        title: "countries",
+        colour: "pink"
+    },
+    {
+        statistic: "800,000,000",
+        title: "darts thrown",
+        colour: "blue"
     }
 ];
 

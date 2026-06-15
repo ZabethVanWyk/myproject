@@ -14,6 +14,11 @@ h1 {
     margin-bottom: 40px;
 }
 
+.card h2 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
 .feature-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -24,8 +29,12 @@ h1 {
     padding: 30px;
     border-radius: 12px;
     color: white;
+    min-height: 300px;
     text-align: center;
     transition: transform 0.2s ease;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card:hover {
@@ -33,15 +42,15 @@ h1 {
 }
 
 .blue {
-    background: #0066cc;
+    background: #0189ff;
 }
 
 .green {
-    background: #2e8b57;
+    background: #1aff01;
 }
 
-.orange {
-    background: #ff6600;
+.pink {
+    background: #e900b8;
 }
 
 @media (max-width: 768px) {
