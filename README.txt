@@ -20,6 +20,7 @@ ACCESSIBILITY
 CMS INTEGRATION
 
 The card content is stored in a JavaScript data structure.
+(For the assessment I used a JavaScript array, but in a production environment the same structure could be populated from a CMS API endpoint.)
 
 This allows future integration with:
 - WordPress
@@ -37,3 +38,20 @@ TECHNOLOGIES USED
 - HTML5
 - CSS3
 - Vanilla JavaScript
+
+HOW TO RUN
+
+1. Clone the repository
+2. Open index.html in a browser
+
+Or view the live demo:
+
+https://zabethvanwyk.github.io/myproject/
+
+LIVE DEMO
+
+https://zabethvanwyk.github.io/myproject/
+
+GITHUB REPOSITORY
+
+https://github.com/zabethvanwyk/myproject
